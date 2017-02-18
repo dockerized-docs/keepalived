@@ -7,7 +7,7 @@ Dockerzied Keepalived documentation for offline use.
 - Base image: `fedora:latest`.
 - The keepalived `master` branch is cloned and docs are built using sphinx.
 - Httpd server is installed
-- Mongodb documentation directory (`/keepalived/doc/build/html`) is linked to httpd `DocumentRoot` (`/var/www/html`).
+- Keepalived documentation directory (`/keepalived/doc/build/html`) is linked to httpd `DocumentRoot` (`/var/www/html`).
 
 # How to use this image #
 
